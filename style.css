@@ -2,6 +2,75 @@ body {
   display: block;
   margin: auto;
   text-align: center;
+  background-color: #191d29;
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+h1 {
+  color: #f9fafb;
+  padding: 0.5rem 0.5rem;
+}
+
+h2 {
+  color: #f9fafb;
+}
+
+.img {
+  width: 250px;
+  height: 150px;
+  display: block;
+  margin: auto;
+  padding: 1.5rem 1.5rem;
+}
+
+#name {
+  background-color: #3f3f46;
+  padding: 1rem 1rem;
+  border: 1px solid black;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  padding: 1rem 1rem;
+  color: #f9fafb;
+  outline: none;
+  text-align: center;
+  font-size: large;
+}
+
+#yearOfBirth {
+  padding: 1rem 1rem;
+  border: 1px solid black;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 1rem 1rem;
+  background-color: #3f3f46;
+  color: #f9fafb;
+  outline: none;
+  text-align: center;
+  font-size: large;
+}
+
+#btn {
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+  text-align: center;
+  outline: none;
+  font-weight: bold;
+  cursor: pointer;
+  align-items: center;
+  border-radius: 1.4rem;
+  font-size: 1rem;
+  transition: 0.2s ease;
+  padding: 1rem 1.5rem;
+  border: 1.6px solid white;
+  background-color: #e5e7eb;
+}
+
+#btn:hover {
+  background-color: #3f3f46;
+  color: white;
+  border: 1.6px solid #e5e7eb;
 }
 
 .output {
@@ -11,4 +80,30 @@ body {
   border: 2px solid black;
   height: 10vh;
   width: 40%;
+  font-size: large;
+  padding: 1rem 1rem;
+  background-color: #3f3f46;
+  color: #f9fafb;
+}
+
+footer li {
+  color: white;
+  padding: 0.5rem 1rem;
+  list-style: none;
+  display: inline-block;
+  padding-inline-start: 0px;
+  margin-top: 15px;
+}
+
+footer ul {
+  padding-inline-start: 0px;
+}
+
+.link {
+  color: white;
+}
+
+.link:hover {
+  transition: 0.2 ease;
+  color: #f9fafb;
 }
