@@ -13,7 +13,7 @@ function clickHandler() {
     if (year >= 1000 && year <= 9999) {
 
         if (year % 400 === 0 || year % 4 === 0) {
-            outputDiv.innerText = "Hello " + userName.value + " " +year + " is an leap year, why not share it in Social Media "; 
+            outputDiv.innerText = "Hello " + userName.value + " " +year + " is an leap year, why not share it in Social Media 😉"; 
         } else if (year % 100 === 0) {          
           outputDiv.innerText = "Hello " + userName.value + " " + year + " is not leap year"; 
         }
@@ -22,7 +22,7 @@ function clickHandler() {
         }
       }
     else {
-        outputDiv.innerText = "Hello " + userName.value + "Please enter proper value"; 
+        outputDiv.innerText = "Hello " + userName.value + " Please enter proper value"; 
     }   
   }
 
