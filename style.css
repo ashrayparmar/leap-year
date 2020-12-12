@@ -1,0 +1,14 @@
+body {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+.output {
+  display: block;
+  margin: auto;
+  text-align: center;
+  border: 2px solid black;
+  height: 10vh;
+  width: 40%;
+}
